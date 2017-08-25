@@ -1,0 +1,104 @@
+.head-wrapper .right .right-block {
+    height: 57px;
+    position: relative;
+}
+
+.head-wrapper .right .right-block  i {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.head-wrapper .right .right-block a {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+
+.user-info-wrapper > div {
+    height: 58px;
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 0 16px;
+    display: flex;
+}
+
+.user-info-wrapper .key {
+    color: #666;
+    width: 90px;
+    font-size: 14px;
+    line-height: 58px;
+    flex:  0 0 auto;
+}
+
+.user-info-wrapper .choose-address .arrow {
+    color: #9b9b9b;
+    line-height: 58px;
+}
+
+.red {
+    color: red;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+input {
+    flex: 1;
+    font-size: 14px;
+}
+
+.detail-address {
+    height: 90px!important;
+}
+
+textarea {
+    color: #757575;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 22px 22px 22px 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.bottom-slide-wrapper {
+    width: 100%;
+    height: 100%;
+    color: #4c93fd;
+    background-color: rgba(0, 0, 0, .9);
+    line-height: 64px;
+    text-align: center;
+    position: absolute;
+    z-index: 900;
+    bottom: -100%;
+    transition: bottom .4s;
+}
+
+.bottom-slide {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-slide .top {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 10px 10px 10px;
+}
+
+.bottom-slide .bottom {
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 10px 10px 10px;
+}
+

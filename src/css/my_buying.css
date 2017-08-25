@@ -1,0 +1,146 @@
+.swiper-tag {
+    width: 100%;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    top: 44px;
+    z-index: 160;
+}
+
+body {
+    padding-top: 84px;
+}
+
+.swiper-tag .text {
+    width: 60px;
+    text-align: center;
+    flex: 1;
+}
+
+.swiper-tag .text span {
+    color: #999;
+    border-bottom: 2px solid transparent;
+    padding: 0 4px;
+    display: inline-block;
+}
+
+.swiper-tag .text span.active {
+    color: #d40073;
+    border-bottom-color: #d40073;
+}
+
+.swiper-container {
+    min-height: 100%;
+    height: auto;
+}
+
+.info-wrapper {
+    background-color: #fff;
+    margin: 8px 0;
+}
+
+.info-wrapper .info {
+    display: flex;
+}
+
+.info-wrapper .info img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    flex: 0 0 auto;
+}
+
+.info-wrapper .info .text {
+    flex: 1;
+    position: relative;
+}
+
+.info .text .top {
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+}
+
+.info .text .bottom {
+    color: #999;
+    width: 100%;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.info .text .bottom .num {
+    color: #4c93fd;
+}
+
+.info .text .bottom .order-taking-num {
+    float: left;
+}
+
+.info .text .bottom .time {
+    float: right;
+    padding-right: 10px;
+}
+
+
+.info-wrapper .btn span {
+    color: #999;
+    height: 26px;
+    width: 73px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 26px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.info-wrapper .btn span.active {
+    color: #4c93fd;
+    border-color: #4c93fd;
+}
+
+.contact-merchant {
+    float: right;
+}
+
+/*footApp下载部分*/
+body {
+    padding-bottom: 75px;
+}
+.down-app {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(109, 109, 109 , .8);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 24;
+}
+
+.down-app .logo {
+    padding: 11px 10px 12px 12px;
+}
+
+.down-app .text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 19px auto 20px auto;
+}
+
+
+.down-app .down {
+    height: 28px;
+    width: 68px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #4c93fd;
+    border-radius: 5px; color: #4c93fd;
+    margin: 22px 12px 23px 0;
+    float: right;
+}

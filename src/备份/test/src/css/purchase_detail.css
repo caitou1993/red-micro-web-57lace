@@ -1,0 +1,119 @@
+.main-img {
+    background-image: url('../images/purchase.png');
+    background-size: cover;
+    padding-top: 70%;
+}
+
+.mark {
+    font-size: 14px;
+    background-color: #fff;
+    padding: 12px 15px 0 15px;
+}
+
+.purchase-info-wrapper {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.purchase-text {
+    line-height: 24px;
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+.purchase-text .key {
+    color: #919191;
+    padding-right: 10px;
+}
+
+.purchase-text .times {
+    color: #cdcdcd;
+    font-size: 12px;
+    float: right;
+}
+
+
+.purchase-username{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+}
+
+.purchase-username img {
+    height: 40px;
+    width: 40px;
+    margin: 5px 10px 5px 0;
+    flex: 0 0 auto;
+}
+
+.purchase-username .purchase-username-text {
+    flex: 1;
+    display: flex;
+}
+
+.purchase-username-text .key {
+    color: #919191;
+    display: block;
+    line-height: 50px;
+    flex: 0 0 auto;
+    padding-right: 10px;
+}
+
+.purchase-username-text .value {
+    min-width: 0;
+    line-height: 50px;
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.purchase-username-text .arrow {
+    line-height: 50px;
+}
+
+.order-taking {
+    font-size: 14px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 12px 15px;
+}
+
+/*footApp下载部分*/
+body {
+    padding-bottom: 75px;
+}
+.down-app {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(109, 109, 109 , .8);
+    position: fixed;
+    display: flex;
+    bottom: 0;
+}
+
+.down-app .logo {
+    padding: 11px 10px 12px 12px;
+}
+
+.down-app .text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 19px auto 20px auto;
+}
+
+.down-app .down {
+    height: 28px;
+    width: 68px;
+    border: 1px solid #4c93fd;
+    border-radius: 5px; color: #4c93fd;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    margin: 22px 12px 23px 0;
+    float: right;
+}

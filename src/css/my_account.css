@@ -1,0 +1,61 @@
+.head-wrapper .right .right-block {
+    height: 57px;
+    position: relative;
+}
+
+.head-wrapper .right .right-block  i {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.head-wrapper .right .right-block a {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+
+.user-info-wrapper {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 0 16px;
+}
+
+.user-info-wrapper > div {
+    height: 58px;
+}
+
+.user-info-wrapper .key {
+    color: #666;
+    line-height: 58px;
+    font-size: 14px;
+    float: left;
+}
+
+.user-info-wrapper .value {
+    color: #333;
+    line-height: 58px;
+    font-size: 12px;
+    padding-right: 12px;
+    float: right;
+}
+
+
+.user-info-wrapper .arrow {
+    color: #666;
+    float: right;
+    line-height: 58px;
+}
+
+.user-info-wrapper .personal-info img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 13px;
+    float: right;
+}

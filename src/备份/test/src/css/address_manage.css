@@ -1,0 +1,158 @@
+.head-wrapper .right .right-block {
+    height: 57px;
+    position: relative;
+}
+
+.head-wrapper .right .right-block  i {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.head-wrapper .right .right-block a {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+
+body {
+    padding-bottom: 44px;
+    overflow-y: hidden;
+}
+
+
+.bottom-slide-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: -100%;
+    transition: bottom .4s;
+    z-index: 900;
+}
+
+.bottom-slide {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-slide .top {
+    color: red;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0 10px 10px 10px;
+}
+
+.bottom-slide .bottom {
+    color: #4c93fd;
+    background-color: #fff;
+    margin: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+.address-wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.address {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.address .user-info {
+    padding: 12px 12px;
+}
+
+.address .user-info .name {
+    padding-right: 10px;
+}
+
+.address .user-info .text {
+    color: #666;
+    padding-top: 4px;
+}
+
+.address .address-handle {
+    height: 45px;
+    padding: 0 12px;
+}
+
+.address .address-handle .choose {
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #d3d3d3;
+    margin: 12px 3px;
+    border-radius: 50%;
+    float: left;
+}
+
+.address .address-handle .choose.active {
+    background-color: #4C93FD;
+    border-color: #4C93FD;
+}
+
+.address .address-handle .text {
+    color: #666;
+    line-height: 20px;
+    float: left;
+    margin: 12px 3px;
+}
+
+.address .address-handle .delete {
+    color: #666;
+    width: 48px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    margin: 10px 3px;
+    float: right;
+    border: 1px solid #999;
+    border-radius: 2px;
+}
+
+.address .address-handle .edit {
+    color: #666;
+    height: 23px;
+    width: 48px;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 2px;
+    border: 1px solid #999;
+    margin: 10px 4px;
+    float: right;
+}
+
+.btn-wrapper {
+    height: 44px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+.btn-wrapper .btn {
+    width: 94%;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    background-color: #4c93fd;
+    margin: 7px 3%;
+
+}
+

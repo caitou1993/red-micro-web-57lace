@@ -1,0 +1,101 @@
+.version-of-clothing-tip {
+    color: #fff;
+    height: 36px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: rgba(255, 151, 82, .7);
+    box-sizing: border-box;
+    padding: 10px 12px;
+    position: fixed;
+    top: 57px;
+    z-index: 16;
+    overflow: hidden;
+}
+
+.version-of-clothing-tip .left {
+    display: inline-block;
+    float: left;
+}
+
+.version-of-clothing-tip .right {
+    display: inline-block;
+    float: right;
+}
+
+.version-of-clothing-tip .btn {
+    color: rgba(255, 151, 82, .7);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    float: left;
+    padding: 0 4px;
+    margin: 0 20px;/*vertical-align: middle;*/
+}
+
+.version-of-clothing-tip .arrow {
+    font-size: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: -2px;
+}
+
+.version-of-clothing {
+    /*height: 224px;*/
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 12px 0;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.version-of-clothing .left {
+    font-size: 0;
+    margin-right: 10px;
+    flex: 0 0 auto;
+}
+
+.version-of-clothing .left img{
+    height: 204px;
+}
+
+.version-of-clothing .right {
+    flex: 1;
+}
+
+.version-of-clothing .right .top {
+    line-height: 20px;
+    border-left: 2px solid #ff33ff;
+    padding-left: 10px;
+}
+
+.version-of-clothing .right .top .product-num {
+    color: #666;
+    font-size: 12px;
+}
+
+.version-of-clothing .right .middle {
+    color: #666;
+    height: auto;
+    min-height: 80px;
+    font-size: 12px;
+    margin: 15px 0 69px 0;
+}
+
+.version-of-clothing .right .bottom {
+    font-size: 0;
+    position: absolute;
+    margin-left: -10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+
+.version-of-clothing .right .bottom img {
+    width: 65px;
+    margin-left: 10px;
+}

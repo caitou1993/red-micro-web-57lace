@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+}
+
+.icon-gou {
+    height: 62px;
+    width: 62px;
+    font-size: 36px;
+    border-radius: 50%;
+    background-color: #2ecb74;
+    text-align: center;
+    line-height: 62px;
+    margin: 36px auto 16px auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.btn-wrapper {
+    width: 222px;
+    margin: 60px auto 0 auto;
+}
+
+.btn-wrapper div {
+    height: 23px;
+    width: 69px;
+    border: 1px solid #999;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.btn-wrapper .next-buying {
+    float: left;
+}
+
+.btn-wrapper .my-buying {
+    color: #4c93fd;
+    border-color: #4c93fd;
+    float: right;
+}

@@ -1,0 +1,150 @@
+.head-wrapper .right .right-block {
+    height: 57px;
+    position: relative;
+}
+
+.head-wrapper .right .right-block  i {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.head-wrapper .right .right-block a {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+
+.swiper-tag {
+    width: 100%;
+    background-color: #fff;
+    line-height: 45px;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.swiper-tag .text {
+    width: 60px;
+    text-align: center;
+    flex: 1;
+}
+
+.swiper-tag .text span {
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+}
+
+.swiper-tag .text span.active {
+    color: #4c93fd;
+    border-bottom-color: #4c93fd;
+}
+
+.buying-info-wrapper {
+    background-color: #fff;
+    margin-bottom: 7px;
+}
+
+.buying-info-wrapper .buying-info {
+    display: flex;
+}
+
+.buying-info-wrapper .buying-info img {
+    width: 90px;
+    height: 90px;
+    margin: 10px 0 10px 10px;
+    flex: 0 0 auto;
+}
+
+.buying-info-wrapper .buying-info .text {
+    margin-left: 10px;
+    flex: 1;
+    position: relative;
+}
+
+.buying-info .text .top {
+    position: absolute;
+    top: 10px;
+}
+
+.buying-info .text .middle {
+    color: #999;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 48px;
+}
+
+.buying-info .text .bottom {
+    color: #999;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+.buying-info .text .bottom .num {
+    color: #4c93fd;
+}
+
+.buying-info .text .bottom .time {
+    float: right;
+}
+
+.buying-info-wrapper .buying-info .arrow {
+    flex: 0 0 auto;
+    line-height: 110px;
+    padding-right: 12px;
+}
+
+.ellipsis {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+/*footApp下载部分*/
+/*body {*/
+    /*padding-bottom: 75px;*/
+/*}*/
+/*.down-app {*/
+    /*height: 75px;*/
+    /*background-color: rgba(109, 109, 109 , .8);*/
+    /*width: 100%;*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*display: flex;*/
+/*}*/
+
+/*.down-app .logo {*/
+    /*padding: 11px 10px 12px 12px;*/
+/*}*/
+
+/*.down-app .text {*/
+    /*color: #fff;*/
+    /*font-size: 12px;*/
+    /*line-height: 18px;*/
+    /*margin: 19px auto 20px auto;*/
+/*}*/
+
+
+/*.down-app .down {*/
+    /*height: 28px;*/
+    /*width: 68px;*/
+    /*border: 1px solid #4c93fd;*/
+    /*border-radius: 5px; color: #4c93fd;*/
+    /*font-weight: 600;*/
+    /*font-size: 12px;*/
+    /*margin: 22px 12px 23px 0;*/
+    /*line-height: 28px;*/
+    /*text-align: center;*/
+    /*float: right;*/
+/*}*/

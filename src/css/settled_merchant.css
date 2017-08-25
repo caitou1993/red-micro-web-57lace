@@ -1,0 +1,165 @@
+.head-wrapper .head .center {
+    height: 33px;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: left;
+    position: relative;
+    display: flex;
+}
+
+.head-wrapper .head .center div {
+    color: #999;
+    width: 36px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.head-wrapper .head .center input {
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+
+
+.swiper-tag {
+    width: 100%;
+    line-height: 45px;
+    background-color: #fff;
+    /*margin-bottom: 12px;*/
+    display: flex;
+    position: fixed;
+    top: 57px;
+    z-index: 24;
+}
+
+body {
+    padding-top: 104px;
+}
+
+.swiper-tag .text {
+    width: 60px;
+    text-align: center;
+    flex: 1;
+}
+
+.swiper-tag .text span {
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+}
+
+.swiper-tag .text span.active {
+    color: #4c93fd;
+    border-bottom-color: #4c93fd;
+}
+
+.swiper-container {
+    min-height: 100%;
+    height: auto;
+}
+
+.quality-merchants-list-wrapper {
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.quality-merchants-list-wrapper div {
+    width: 50%;
+    background-color: #fff;
+    border-bottom: 2px solid #d7d7d7;
+    border-right: 2px solid #d7d7d7;
+    box-sizing: border-box;
+    padding: 6px;
+    float: left;
+}
+
+.quality-merchants-list-wrapper div:nth-child(even) {
+    border-right-color: transparent;
+}
+
+.quality-merchants-list-wrapper div img {
+    width: 100%;
+    display: block;
+}
+
+.merchant-num-tip {
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+    padding-left: 12px;
+}
+
+.merchant-num-tip span {
+    color: #ff6600;
+}
+
+.new-settled-list-wrapper {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.new-settled-item {
+    width: 50%;
+    height: 115px;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    border-bottom: none;
+    box-shadow: 0 0 0 2px #f7f7f7 inset;
+    padding: 2px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.new-settled-item:nth-child(odd) {
+    border-right: none;
+}
+
+.new-settled-item .new-settled-info {
+    display: flex;
+}
+
+.new-settled-item .new-settled-info img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    flex: 0 0 auto;
+}
+
+.new-settled-item .new-settled-info .text {
+    font-size: 14px;
+    line-height: 24px;
+    flex: 1;
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+.new-settled-info .text .phone {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.new-settled-info .text .firm-name {
+    padding-left: 3px;
+}
+
+.new-settled-item .btn {
+    color: #91bdfd;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    position: absolute;
+    bottom: 14px;
+    left: 5px;
+    right: 5px;
+}

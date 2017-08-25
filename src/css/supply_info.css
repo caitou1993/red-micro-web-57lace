@@ -1,0 +1,94 @@
+.swiper-tag {
+    width: 100%;
+    line-height: 45px;
+    background-color: #fff;
+    display: flex;
+}
+
+.swiper-tag .text {
+    width: 60px;
+    text-align: center;
+    flex: 1;
+}
+
+.swiper-tag .text span {
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+}
+
+.swiper-tag .text span.active {
+    color: #4c93fd;
+    border-bottom-color: #4c93fd;
+}
+
+.item {
+    height: 140px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.item .avatar-wrapper {
+    height: 44px;
+}
+
+.item .avatar-wrapper img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 7px 7px 7px 0;
+    float: left;
+}
+
+.item .avatar-wrapper div {
+    line-height: 44px;
+    float: left;
+}
+
+.item .product-info {
+    display: flex;
+}
+
+.item .product-info img {
+    width: 72px;
+    height: 72px;
+    margin: 12px 8px 12px 0;
+    flex: 0 0 auto;
+}
+
+.item .product-info .text {
+    flex: 1;
+    position: relative;
+}
+
+.product-info .text .brief {
+    position: absolute;
+    top: 12px;
+}
+
+.product-info .text .type {
+    color: #fff;
+    font-size: 12px;
+    background-color: #d1d1d1;
+    border-radius: 8px;
+    padding: 2px 6px;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+}
+
+.product-info .text .time {
+    color: #bdbdbd;
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+}
+
+.product-info .text .status {
+    color: #bdbdbd;
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+}

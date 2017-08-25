@@ -1,0 +1,170 @@
+.head-wrapper .head .center {
+    height: 33px;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: left;
+    position: relative;
+    display: flex;
+}
+
+.head-wrapper .head .center div {
+    color: #999;
+    width: 36px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.head-wrapper .head .center input {
+    height: 31px;
+    line-height: 31px;
+    font-size: 10px;
+    margin: 1px 5px 1px 0;
+    flex: 1;
+}
+
+.swiper-tag {
+    width: 100%;
+    background-color: #f6f6f6;
+    line-height: 45px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.swiper-tag .text {
+    width: 60px;
+    text-align: center;
+    flex: 1;
+}
+
+.swiper-tag .text span {
+    padding-right: 3px;
+    display: inline-block;
+}
+
+.swiper-tag .text span.active {
+    color: #4c93fd;
+}
+
+#triangle {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+.new-pattern-list-wrapper {
+    background-color: #fff;
+    margin-bottom: 48px;
+    overflow: hidden;
+}
+
+.new-pattern-item {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 8px;
+    float: left;
+    border-top: 1px solid #f2f2f2;
+    border-right: 1px solid transparent;
+}
+
+.new-pattern-img{
+    width: 100%;
+    background-image: url('../images/huaxing1.png');
+    background-size: cover;
+    padding-top: 100%;
+    margin-bottom: 5px;
+}
+
+.new-pattern-item  .text-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.new-pattern-item .text-wrapper .left {
+    font-size: 14px;
+    line-height: 24px;
+    float: left;
+}
+
+.text-wrapper .left .firm-name {
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+
+.text-wrapper .left .firm-name.active {
+    color: #ff00cc;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    border-color: #ff00cc;
+    border-radius: 12px;
+}
+
+.new-pattern-item .text-wrapper .right {
+    color: #FF0000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.new-pattern-item:nth-child(odd) {
+    border-right-color: #f2f2f2;
+}
+
+.filter-wrapper {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 14px 24px 14px;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    z-index: 12;
+}
+
+.filter-wrapper .key {
+    margin-top: 20px;
+}
+
+.filter-wrapper .value span {
+    color: #666;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin: 15px 7px 15px 0;
+    display: inline-block;
+}
+
+/*body {*/
+    /*position: relative;*/
+    /*height: auto;*/
+    /*overflow: hidden;*/
+    /*border: 1px solid red;*/
+/*}*/
+
+/*.mask {*/
+    /*background-color: rgba(0, 0, 0, .5);*/
+    /*z-index: 1;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*display: none;*/
+    /*!*opacity: 0;*!*/
+    /*!*transition: all .5s;*!*/
+    /*!*visibility: hidden;*!*/
+/*}*/
+
+/*body.modal-open {*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+/*}*/

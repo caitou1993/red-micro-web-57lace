@@ -1,0 +1,100 @@
+.main-img {
+    background-size: cover;
+    background-image: url('../images/supply_detail.png');
+    padding-top: 70%;
+}
+
+.supply-info-wrapper {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.supply-text {
+    padding: 12px 0;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.supply-text .key {
+    color: #919191;
+    padding-right: 10px;
+}
+
+.supply-username{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+
+.supply-username img {
+    height: 40px;
+    width: 40px;
+    margin: 5px 10px 5px 0;
+    flex: 0 0 auto;
+}
+
+.supply-username .supply-username-text {
+    line-height: 50px;
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.supply-username-text .key {
+    color: #919191;
+    padding-right: 10px;
+    display: block;
+    flex: 0 0 auto;
+}
+
+.supply-username-text .value {
+    min-width: 0;
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*footApp下载部分*/
+body {
+    padding-bottom: 75px;
+}
+.down-app {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(109, 109, 109 , .8);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.down-app .logo {
+    padding: 11px 10px 12px 12px;
+}
+
+.down-app .text {
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 19px auto 20px auto;
+}
+
+
+.down-app .down {
+    height: 28px;
+    width: 68px;
+    border: 1px solid #4c93fd;
+    border-radius: 5px; color: #4c93fd;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    margin: 22px 12px 23px 0;
+    float: right;
+}
+
+
+
+

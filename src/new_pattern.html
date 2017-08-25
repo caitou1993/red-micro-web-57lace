@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>新款花型</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./css/common/reset.css">
+    <link rel="stylesheet" href="./css/common/common.css">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="./css/new_pattern.css">
+</head>
+
+<body>
+<div class="head-wrapper">
+    <div class="head">
+        <div class="left">
+            <a class="icon-fanhui" href="#" onclick="javascript: historyback(-1);"></a>
+        </div>
+        <div class="center">
+            <div class="icon-sousuo"></div>
+            <input type="text" placeholder="输入花型编号或厂家进行搜索">
+            <div class="icon-xiangji"></div>
+        </div>
+    </div>
+</div>
+<!--<div class="mask"></div>-->
+<div class="swiper-tag">
+    <div class="text"><span class="active">新品</span></div>
+    <div id="filterBtn" class="text"><span>筛选</span><i id="triangle" class="icon-xiasanjiao"></i></div>
+</div>
+<div class="filter-wrapper" id="filter">
+    <div class="pattern-classify border-bottom">
+        <div class="key">花型分类</div>
+        <div class="value">
+            <span>面料</span><span>大边</span><span>小边</span><span>睫毛</span>
+        </div>
+    </div>
+    <div class="pattern-classify border-bottom">
+        <div class="key">是否有库存</div>
+        <div class="value">
+            <span>有库存</span><span>无库存</span>
+        </div>
+    </div>
+    <div class="pattern-classify">
+        <div class="key">地区(可多选)</div>
+        <div class="value">
+            <span>福建长乐</span><span>广州中大</span><span>汕头陈店</span><span>汕头峡山</span><span>汕头谷饶</span><span>普宁流沙</span><span>浙江柯桥</span><span>浙江义乌</span><span>其他</span>
+        </div>
+    </div>
+</div>
+<div class="new-pattern-list-wrapper">
+    <div class="new-pattern-item">
+        <div class="new-pattern-img"></div>
+        <div class="text-wrapper">
+            <div class="left">
+                <div class="pattern-num">#200001</div>
+                <div class="firm-name">宏鑫兴针织</div>
+            </div>
+            <div class="right">
+                ￥10/码
+            </div>
+        </div>
+    </div>
+    <div class="new-pattern-item">
+        <div class="new-pattern-img"></div>
+        <div class="text-wrapper">
+            <div class="left">
+                <div class="pattern-num">#200001</div>
+                <div class="firm-name active">蕾丝控</div>
+            </div>
+            <div class="right">
+                ￥10/码
+            </div>
+        </div>
+    </div>
+    <div class="new-pattern-item">
+        <div class="new-pattern-img"></div>
+        <div class="text-wrapper">
+            <div class="left">
+                <div class="pattern-num">#200001</div>
+                <div class="firm-name">宏鑫兴针织</div>
+            </div>
+            <div class="right">
+                ￥10/码
+            </div>
+        </div>
+    </div>
+    <div class="new-pattern-item">
+        <div class="new-pattern-img"></div>
+        <div class="text-wrapper">
+            <div class="left">
+                <div class="pattern-num">#200001</div>
+                <div class="firm-name">宏鑫兴针织</div>
+            </div>
+            <div class="right">
+                ￥10/码
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var filterBtn = document.getElementById('filterBtn');
+    var filter = document.getElementById('filter');
+    var triangle = document.getElementById('triangle');
+    var mask = document.getElementsByClassName('mask')[0];
+    filterBtn.onclick = function () {
+        if (triangle.className === 'icon-xiasanjiao') {
+            triangle.className = triangle.className.replace('icon-xiasanjiao', 'icon-shangsanjiao');
+            filter.style.display = 'block';
+            mask.style.display = 'block';
+            document.body.className = 'modal-open';
+//            mask.style.opacity = 1;
+//            mask.style.visibility = 'visible';
+        } else {
+            triangle.className = triangle.className.replace('icon-shangsanjiao', 'icon-xiasanjiao');
+            filter.style.display = 'none';
+            mask.style.display = 'none';
+            document.body.className = '';
+//            mask.style.opacity = 0;
+//            mask.style.visibility = 'hidden';
+        }
+    }
+</script>
+</body>
+
+</html>

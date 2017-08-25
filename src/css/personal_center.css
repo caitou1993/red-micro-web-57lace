@@ -1,0 +1,120 @@
+.head-wrapper .right .right-block {
+    height: 57px;
+    position: relative;
+}
+
+.head-wrapper .right .right-block  i {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.head-wrapper .right .right-block a {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+
+.avatar-wrapper {
+    height: 104px;
+    width: 100%;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+
+.avatar-wrapper img {
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    margin: 22px;
+    float: left;
+}
+
+.avatar-wrapper .text {
+    color: #fff;
+    line-height: 24px;
+    margin: 28px 0;
+    float: left;
+}
+
+.avatar-wrapper .arrow {
+    color: #fff;
+    line-height: 104px;
+    float: right;
+    margin-right: 24px;
+}
+
+.my-buying-wrapper {
+    background-color: #fff;
+}
+
+.my-buying {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+
+.my-buying-wrapper .status {
+    color: #949494;
+    text-align: center;
+    line-height: 18px;
+    padding: 16px;
+    display: flex;
+}
+
+.my-buying-wrapper .status .going {
+    flex: 1;
+    border-right: 1px solid #eee;
+}
+
+.my-buying-wrapper .status .complete {
+    flex: 1;
+    border-right: 1px solid #eee;
+}
+
+.my-buying-wrapper .status .close {
+    flex: 1;
+}
+
+.icon-gongneng {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.my-collection, .address-manage {
+    height: 52px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.my-collection .icon-star-small, .address-manage .icon-dizhibu {
+    color: #fb7400;
+    line-height: 52px;
+    font-size: 24px;
+    padding-left: 16px;
+    float: left;
+}
+
+.my-collection .text, .address-manage .text {
+    padding-left: 16px;
+    line-height: 52px;
+    float: left;
+}
+
+.my-collection .arrow, .address-manage .arrow {
+    line-height: 52px;
+    padding-right: 12px;
+    float: right;
+}
+
+.address-manage {
+    margin-bottom: 36px;
+}
+
+.address-manage .icon-dizhibu {
+    color: #1296DB;
+}
