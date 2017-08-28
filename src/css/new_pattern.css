@@ -67,6 +67,14 @@ body {
     border-bottom-color: #d40073;
 }
 
+.icon-xiasanjiao {
+    color: red !important;
+}
+
+.icon-shangsanjiao {
+    color: red !important;
+}
+
 .new-pattern-list-wrapper {
     background-color: #fff;
     margin-bottom: 48px;
@@ -213,7 +221,7 @@ body {
     -webkit-box-shadow: 1px 0 0 1px #e8e8e8;
 }
 
-.btn-wrapper #confir {
+.btn-wrapper #confirm {
     color: #fff;
     background-color: #d40073;
     -webkit-box-shadow: 1px 0 0 1px #d40073;
