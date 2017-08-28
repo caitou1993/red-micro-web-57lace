@@ -6,6 +6,7 @@ html, body {
     width: 100%;
 }
 body {
+    font-size: 14px;
     -webkit-tap-highlight-color: transparent;
     background-color: #f2f2f2;
     min-width: 320px;
@@ -16,10 +17,10 @@ body {
 input:focus {
     outline: none;
 }
-input::-webkit-input-palceholder {
+input::-webkit-input-placeholder {
     font-size: inherit;
     font-family: inherit;
-    /*color: #999;*/
+    color: #999;
 }
 .clearfix {
     display: block;

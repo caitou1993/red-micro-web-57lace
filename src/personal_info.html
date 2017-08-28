@@ -29,9 +29,9 @@
     <div class="bottom-slide">
         <div class="top">
             <div class="border-bottom">拍照</div>
-            <div class="border-bottom">从相机选择</div>
+            <div>从相册选择</div>
         </div>
-        <div class="bottom">取消</div>
+        <div class="bottom" id="cancel">取消</div>
     </div>
 </div>
 
@@ -70,6 +70,7 @@
     var rightSlide = document.getElementById('rightSlide');
     var bottomSlide = document.getElementById('bottomSlide');
     var arrow = document.getElementById('arrow');
+    var cancel = document.getElementById('cancel');
     console.log(arrow);
     img.onclick = function () {
         rightSlide.style.right = 0;
@@ -81,6 +82,10 @@
 
     arrow.onclick = function () {
         bottomSlide.style.bottom = 0;
+    };
+
+    cancel.onclick = function () {
+        bottomSlide.style.bottom = '-100%';
     };
 
 </script>

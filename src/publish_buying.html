@@ -25,8 +25,10 @@
 <div class="upload-image-wrapper">
     <div class="upload-image">
         <i class="icon-shangchuantupian"></i>
+        <input id="browse" type="file" multiple="multiple">
     </div>
-    <div class="upload-image-tip">最多可上传3张同款花型图片</div>
+    <div id="preview" class="preview"></div>
+    <!--<div class="upload-image-tip">最多可上传3张同款花型图片</div>-->
 </div>
 <div class="publish-buying-info">
     <div class="text border-bottom">
@@ -35,8 +37,8 @@
     <div class="text border-bottom">
         <span class="key">求购数量(选填)</span><span class="value">请选择数量<i class="icon-xiayiye"></i></span>
     </div>
-    <div class="text border-bottom">
-        <span>接受开机</span><span class="accept"><i class="icon-gou"></i>接受</span><span class="refuse"><i class="icon-gou"></i>不接受</span>
+    <div class="text select-btn border-bottom">
+        <span class="key">接受开机</span><span class="value"><i class="icon-gou active"></i>接受</span><span class="value"><i class="icon-gou"></i>不接受</span>
     </div>
     <textarea class="ipt" placeholder="请填写求购花型的详细信息，如花高、宽幅等"></textarea>
 </div>

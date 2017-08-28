@@ -1,61 +1,48 @@
-.head-wrapper .right .right-block {
-    height: 57px;
-    position: relative;
-}
-
-.head-wrapper .right .right-block  i {
-    font-size: 20px;
-    display: block;
-    position: absolute;
-    top: 8px;
-    right: 0;
-}
-
-.head-wrapper .right .right-block a {
-    font-size: 16px;
-    line-height: 16px;
-    display: block;
-    position: absolute;
-    bottom: 6px;
-    right: 0;
-}
-
 .user-info-wrapper {
     background-color: #fff;
-    margin-top: 10px;
+    margin-top: 8px;
     padding: 0 16px;
 }
 
 .user-info-wrapper > div {
-    height: 58px;
+    /*min-height: 44px;*/
+    /*height: auto;*/
+    height: 44px;
+    overflow: hidden;
+    line-height: 44px;
 }
 
 .user-info-wrapper .key {
-    color: #666;
-    line-height: 58px;
-    font-size: 14px;
+    color: #333;
     float: left;
 }
 
 .user-info-wrapper .value {
-    color: #333;
-    line-height: 58px;
-    font-size: 12px;
-    padding-right: 12px;
+    color: #999;
+    padding-right: 8px;
     float: right;
 }
 
 
 .user-info-wrapper .arrow {
-    color: #666;
+    color: #d1d1d1;
     float: right;
-    line-height: 58px;
+    line-height: 44px;
+}
+
+.user-info-wrapper .personal-info {
+    height: 61px;
+    line-height: 61px;
+}
+
+.user-info-wrapper .personal-info .arrow {
+    line-height: 61px;
 }
 
 .user-info-wrapper .personal-info img {
-    height: 32px;
-    width: 32px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
-    margin: 13px;
+    margin: 8px;
     float: right;
 }

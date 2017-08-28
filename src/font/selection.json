@@ -4,113 +4,6 @@
     {
       "icon": {
         "paths": [
-          "M1097.951 440.907l-413.662-381.917c-7.176-6.69-16.907-10.703-27.123-10.703s-19.461 3.527-27.123 10.703l-413.176 381.917c-12.285 11.312-15.812 28.218-10.217 43.543 6.203 15.325 20.434 25.056 36.854 25.056h84.533v342.023c0 22.015 17.88 39.895 39.895 39.895h193.999c22.015 0 39.895-17.88 39.895-39.895v-214.555h110.926v198.135c0 1.338 0.122 2.554 0.243 3.771v12.528c0 22.015 17.88 39.895 39.895 39.895h193.999c22.015 0 39.895-17.88 39.895-39.895v-341.901h84.533c16.42 0 31.259-9.73 36.854-25.056 6.203-15.447 2.068-32.353-10.217-43.543zM1064.868 474.477c-1.946 4.865-6.325 7.784-11.798 7.784h-106.304v352.848c0 6.811-5.838 12.771-12.771 12.771h-182.323c-6.203 0-11.676-4.865-12.528-10.947v-226.596h-0.122v-6.081h-163.714v6.081h-0.122v226.231c-0.73 6.203-6.325 11.312-12.649 11.312h-182.201c-6.811 0-12.771-5.838-12.771-12.771v-352.848h-105.818c-5.352 0-9.852-3.406-11.798-7.784-1.946-4.865-0.487-10.339 3.406-13.744l395.905-365.497c4.865-4.379 12.285-4.379 17.15 0l395.905 365.619c3.527 3.284 4.5 9.244 2.554 13.623z"
-        ],
-        "attrs": [
-          {
-            "fill": "rgb(255, 255, 255)"
-          }
-        ],
-        "width": 1448,
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 0,
-        "tags": [
-          "首页 线"
-        ],
-        "colorPermutations": {
-          "11311311312552552551": [
-            {
-              "f": 1
-            }
-          ]
-        }
-      },
-      "attrs": [
-        {
-          "fill": "rgb(255, 255, 255)"
-        }
-      ],
-      "properties": {
-        "order": 23,
-        "id": 3,
-        "name": "shouye",
-        "prevSize": 32,
-        "code": 59651
-      },
-      "setIdx": 0,
-      "setId": 3,
-      "iconIdx": 0
-    },
-    {
-      "icon": {
-        "paths": [
-          "M153.269 351.452l362.024 362.024 360.927-360.927z"
-        ],
-        "attrs": [
-          {
-            "fill": "rgb(113, 113, 113)"
-          }
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 0,
-        "tags": [
-          "三角下标（正方形） (2)"
-        ]
-      },
-      "attrs": [
-        {
-          "fill": "rgb(113, 113, 113)"
-        }
-      ],
-      "properties": {
-        "order": 22,
-        "id": 2,
-        "name": "xiasanjiao",
-        "prevSize": 32,
-        "code": 59648
-      },
-      "setIdx": 0,
-      "setId": 3,
-      "iconIdx": 1
-    },
-    {
-      "icon": {
-        "paths": [
-          "M870.731 672.548l-362.024-362.024-360.927 360.927z"
-        ],
-        "attrs": [
-          {
-            "fill": "rgb(113, 113, 113)"
-          }
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 0,
-        "tags": [
-          "三角下标（正方形）"
-        ]
-      },
-      "attrs": [
-        {
-          "fill": "rgb(113, 113, 113)"
-        }
-      ],
-      "properties": {
-        "order": 19,
-        "id": 0,
-        "name": "shangsanjiao",
-        "prevSize": 32,
-        "code": 59649
-      },
-      "setIdx": 0,
-      "setId": 3,
-      "iconIdx": 3
-    },
-    {
-      "icon": {
-        "paths": [
           "M693.35 918.903c-0.010 0-0.023 0-0.035 0-9.414 0-17.935-3.823-24.096-10l-389.77-389.838c-6.183-6.173-10.008-14.706-10.008-24.132s3.825-17.959 10.007-24.132v0l389.803-389.803c6.176-6.176 14.708-9.996 24.132-9.996 18.848 0 34.128 15.28 34.128 34.128 0 9.424-3.82 17.956-9.996 24.132l-365.67 365.67 365.67 365.705c6.204 6.176 10.042 14.723 10.042 24.167 0 18.832-15.267 34.099-34.099 34.099-0.039 0-0.077 0-0.115 0h0.006z"
         ],
         "isMulticolor": false,
@@ -119,20 +12,18 @@
           "fanhui"
         ],
         "defaultCode": 58893,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 1,
-        "order": 3,
+        "order": 57,
         "ligatures": "",
         "prevSize": 32,
         "code": 58893,
         "name": "fanhui"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 0
     },
     {
@@ -146,20 +37,18 @@
           "gongneng"
         ],
         "defaultCode": 58895,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 2,
-        "order": 4,
+        "order": 58,
         "ligatures": "",
         "prevSize": 32,
         "code": 58895,
         "name": "gongneng"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 1
     },
     {
@@ -173,20 +62,18 @@
           "sousuo"
         ],
         "defaultCode": 58898,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 3,
-        "order": 8,
+        "order": 59,
         "ligatures": "",
         "prevSize": 32,
         "code": 58898,
         "name": "sousuo"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 2
     },
     {
@@ -200,20 +87,18 @@
           "dianhua"
         ],
         "defaultCode": 58923,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 4,
-        "order": 9,
+        "order": 60,
         "ligatures": "",
         "prevSize": 32,
         "code": 58923,
         "name": "dianhua"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 3
     },
     {
@@ -227,20 +112,18 @@
           "star-small"
         ],
         "defaultCode": 58970,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 5,
-        "order": 10,
+        "order": 61,
         "ligatures": "",
         "prevSize": 32,
         "code": 58970,
         "name": "star-small"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 4
     },
     {
@@ -254,20 +137,18 @@
           "wode"
         ],
         "defaultCode": 58982,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 6,
-        "order": 11,
+        "order": 62,
         "ligatures": "",
         "prevSize": 32,
         "code": 58982,
         "name": "wode"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 5
     },
     {
@@ -281,20 +162,18 @@
           "tupian"
         ],
         "defaultCode": 59006,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 7,
-        "order": 12,
+        "order": 63,
         "ligatures": "",
         "prevSize": 32,
         "code": 59006,
         "name": "tupian"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 6
     },
     {
@@ -308,20 +187,18 @@
           "dizhibu"
         ],
         "defaultCode": 59012,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 8,
-        "order": 13,
+        "order": 64,
         "ligatures": "",
         "prevSize": 32,
         "code": 59012,
         "name": "dizhibu"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 7
     },
     {
@@ -335,20 +212,18 @@
           "xiayiye"
         ],
         "defaultCode": 59038,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 9,
-        "order": 14,
+        "order": 65,
         "ligatures": "",
         "prevSize": 32,
         "code": 59038,
         "name": "xiayiye"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 8
     },
     {
@@ -363,20 +238,18 @@
           "xiangji"
         ],
         "defaultCode": 59066,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 10,
-        "order": 18,
+        "order": 66,
         "ligatures": "",
         "prevSize": 32,
         "code": 59066,
         "name": "xiangji"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 9
     },
     {
@@ -390,20 +263,18 @@
           "shangjia"
         ],
         "defaultCode": 59069,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 11,
-        "order": 15,
+        "order": 67,
         "ligatures": "",
         "prevSize": 32,
         "code": 59069,
         "name": "shangjia"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 10
     },
     {
@@ -417,20 +288,18 @@
           "shouji"
         ],
         "defaultCode": 59080,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 12,
-        "order": 17,
+        "order": 68,
         "ligatures": "",
         "prevSize": 32,
         "code": 59080,
         "name": "shouji"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 11
     },
     {
@@ -445,20 +314,18 @@
           "shangchuantupian"
         ],
         "defaultCode": 59121,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 13,
-        "order": 16,
+        "order": 69,
         "ligatures": "",
         "prevSize": 32,
         "code": 59121,
         "name": "shangchuantupian"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 12
     },
     {
@@ -472,21 +339,103 @@
           "gou"
         ],
         "defaultCode": 59650,
-        "grid": 0,
-        "attrs": []
+        "grid": 0
       },
-      "attrs": [],
       "properties": {
         "id": 16,
-        "order": 7,
+        "order": 70,
         "ligatures": "",
         "prevSize": 32,
         "code": 59650,
         "name": "gou"
       },
-      "setIdx": 1,
-      "setId": 2,
+      "setIdx": 0,
+      "setId": 7,
       "iconIdx": 15
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1097.951 440.907l-413.662-381.917c-7.176-6.69-16.907-10.703-27.123-10.703s-19.461 3.527-27.123 10.703l-413.176 381.917c-12.285 11.312-15.812 28.218-10.217 43.543 6.203 15.325 20.434 25.056 36.854 25.056h84.533v342.023c0 22.015 17.88 39.895 39.895 39.895h193.999c22.015 0 39.895-17.88 39.895-39.895v-214.555h110.926v198.135c0 1.338 0.122 2.554 0.243 3.771v12.528c0 22.015 17.88 39.895 39.895 39.895h193.999c22.015 0 39.895-17.88 39.895-39.895v-341.901h84.533c16.42 0 31.259-9.73 36.854-25.056 6.203-15.447 2.068-32.353-10.217-43.543zM1064.868 474.477c-1.946 4.865-6.325 7.784-11.798 7.784h-106.304v352.848c0 6.811-5.838 12.771-12.771 12.771h-182.323c-6.203 0-11.676-4.865-12.528-10.947v-226.596h-0.122v-6.081h-163.714v6.081h-0.122v226.231c-0.73 6.203-6.325 11.312-12.649 11.312h-182.201c-6.811 0-12.771-5.838-12.771-12.771v-352.848h-105.818c-5.352 0-9.852-3.406-11.798-7.784-1.946-4.865-0.487-10.339 3.406-13.744l395.905-365.497c4.865-4.379 12.285-4.379 17.15 0l395.905 365.619c3.527 3.284 4.5 9.244 2.554 13.623z"
+        ],
+        "width": 1448,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "shouye"
+        ],
+        "defaultCode": 59651,
+        "grid": 0
+      },
+      "properties": {
+        "id": 17,
+        "order": 71,
+        "ligatures": "",
+        "prevSize": 32,
+        "code": 59651,
+        "name": "shouye"
+      },
+      "setIdx": 0,
+      "setId": 7,
+      "iconIdx": 16
+    },
+    {
+      "icon": {
+        "paths": [
+          "M870.731 672.548l-362.024-362.024-360.927 360.927z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "三角下标（正方形） (1)"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 72,
+        "id": 1,
+        "name": "shangsanjiao",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 1,
+      "setId": 6,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M153.269 351.452l362.024 362.024 360.927-360.927z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "三角下标（正方形）"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 73,
+        "id": 0,
+        "name": "xiasanjiao",
+        "prevSize": 32,
+        "code": 59649
+      },
+      "setIdx": 1,
+      "setId": 6,
+      "iconIdx": 1
     }
   ],
   "height": 1024,
@@ -495,20 +444,28 @@
   },
   "preferences": {
     "showGlyphs": true,
-    "showQuickUse": true,
+    "showQuickUse": false,
     "showQuickUse2": true,
     "showSVGs": true,
     "fontPref": {
       "prefix": "icon-",
       "metadata": {
-        "fontFamily": "icomoon"
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
       },
       "metrics": {
         "emSize": 1024,
         "baseline": 12.5,
-        "whitespace": null
+        "whitespace": 0
       },
-      "embed": false
+      "embed": false,
+      "showSelector": true,
+      "selector": "",
+      "classSelector": ".icon",
+      "showMetrics": true,
+      "showMetadata": true,
+      "showVersion": true
     },
     "imagePref": {
       "prefix": "icon-",
@@ -520,6 +477,7 @@
     },
     "historySize": 50,
     "showCodes": true,
-    "gridSize": 16
+    "gridSize": 16,
+    "showGrid": true
   }
 }
